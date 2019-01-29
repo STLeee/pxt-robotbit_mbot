@@ -1,4 +1,4 @@
-//% color="#7F7FFF" weight=10 icon="\uf7c0" block="MBot"
+//% color="#7F7FFF" weight=10 icon="\uf188" block="MBot"
 namespace robotbit_mbot
 {
     //% block
