@@ -4,6 +4,6 @@ namespace robotbit_mbot
     //% block
     export function test(value: number): void
     { 
-        
+        console.log("" + value);
     }
 }
