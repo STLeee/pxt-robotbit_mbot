@@ -1,0 +1,17 @@
+{
+    "name": "robotbit_mbot",
+    "version": "0.0.0",
+    "description": "Extension for Kittenbot Robotbit with Makeblock MBot",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
