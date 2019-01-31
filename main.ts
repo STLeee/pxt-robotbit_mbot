@@ -30,14 +30,8 @@ namespace robotbit_mbot
         var ppin2str: string = PPin[ppin2];
         console.log(ppin1str);
         console.log(ppin2str);
-        var digitalpin1: DigitalPin = DigitalPin[ppin1str]
-        var digitalpin2: DigitalPin = DigitalPin[ppin2str]
-        console.log("" + digitalpin1);
-        console.log("" + digitalpin2);
-        let res1 = pins.digitalReadPin(digitalpin1)
-        let res2 = pins.digitalReadPin(digitalpin2)
 
-        return [digitalpin1, digitalpin2]
+        return [0, 1]
     }
     
     //% blockId=me_ultrasonic_sensor
