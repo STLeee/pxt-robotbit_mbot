@@ -13,6 +13,21 @@ Extension for Kittenbot Robotbit with Makeblock MBot
 
 Read more at https://makecode.microbit.org/packages/build-your-own
 
+## Support
+CIRCUS IO:
+- [ ] Push Bottom
+- [ ] Analog VR
+- [ ] Relay
+- [ ] LCD1602 I2C(0x20, 0x27)
+- [ ] PMS3003(G3)
+
+Makeblock IO:
+- [ ] Me line Follower
+- [ ] Me Ultrasonic Sensor
+- [ ] Me Joystick
+- [ ] Me Potentionmeter
+- [ ] Me Sound Sensor
+
 ## License
 
 
@@ -22,3 +37,6 @@ Read more at https://makecode.microbit.org/packages/build-your-own
 * for PXT/microbit
 (The metadata above is needed for package search.)
 
+## Reference
+https://github.com/KittenBot/pxt-robotbit
+https://github.com/iCShopMgr/MbitBot
