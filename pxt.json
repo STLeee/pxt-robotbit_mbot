@@ -1,6 +1,6 @@
 {
     "name": "robotbit_mbot",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Extension for Kittenbot Robotbit with Makeblock MBot",
     "dependencies": {
         "core": "*",
