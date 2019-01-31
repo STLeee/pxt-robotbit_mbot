@@ -1,6 +1,5 @@
 //% color="#7F7FFF" weight=10 icon="\uf188" block="MBot"
-namespace robotbit_mbot
-{
+namespace robotbit_mbot {
     export enum PPin {
         //% block="P0"
         P0 = DigitalPin.P0,
@@ -19,46 +18,42 @@ namespace robotbit_mbot
         //% block="P15"
         P15 = DigitalPin.P15,
     }
-    
+
     //% blockId=me_line_follower_sensor
     //% block="Me Line Follower Sensor|pin1 %ppin1|pin2 %ppin2"
-    export function me_line_follower_sensor(ppin1: PPin, ppin2: PPin): number[]
-    {
-        console.log("" + ppin1);
-        console.log("" + ppin2);
-        var ppin1str: string = PPin[ppin1];
-        var ppin2str: string = PPin[ppin2];
-        console.log(ppin1str);
-        console.log(ppin2str);
+    export function me_line_follower_sensor(ppin1: PPin, ppin2: PPin): number[] {
+        let pin1: number = ppin1
+        let pin2: number = ppin2
+        let digitalpin1: DigitalPin = pin1
+        let digitalpin2: DigitalPin = pin2
+        console.log("digitalpin1: " + digitalpin1 + ", digitalpin2: " + digitalpin2)
+        let res1 = pins.digitalReadPin(digitalpin1)
+        let res2 = pins.digitalReadPin(digitalpin2)
 
-        return [0, 1]
+        return [res1, res2]
     }
-    
+
     //% blockId=me_ultrasonic_sensor
     //% block="Me Ultrasonic Sensor|pin1 %ppin1"
-    export function me_ultrasonic_sensor(ppin1: PPin): number
-    {
+    export function me_ultrasonic_sensor(ppin1: PPin): number {
         return 0
     }
-    
+
     //% blockId=me_joystick
     //% block="Me Joystick|pin1 %ppin1|pin2 %ppin2"
-    export function me_joystick(ppin1: PPin, ppin2: PPin): number
-    {
+    export function me_joystick(ppin1: PPin, ppin2: PPin): number {
         return 0
     }
-    
+
     //% blockId=me_potentionmeter
     //% block="Me Potentionmeter|pin1 %ppin1"
-    export function me_potentionmeter(ppin1: PPin): number
-    {
+    export function me_potentionmeter(ppin1: PPin): number {
         return 0
     }
-    
+
     //% blockId=me_sound_sensor
     //% block="Me Sound Sensor|pin1 %ppin1"
-    export function me_sound_sensor(ppin1: PPin): number
-    {
+    export function me_sound_sensor(ppin1: PPin): number {
         return 0
     }
 }
