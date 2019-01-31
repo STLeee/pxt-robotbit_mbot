@@ -38,5 +38,5 @@ Makeblock IO:
 (The metadata above is needed for package search.)
 
 ## Reference
-https://github.com/KittenBot/pxt-robotbit
-https://github.com/iCShopMgr/MbitBot
+* https://github.com/KittenBot/pxt-robotbit
+* https://github.com/iCShopMgr/MbitBot
