@@ -24,10 +24,16 @@ namespace robotbit_mbot
     //% block="Me Line Follower Sensor|pin1 %ppin1|pin2 %ppin2"
     export function me_line_follower_sensor(ppin1: PPin, ppin2: PPin): number[]
     {
+        console.log("" + ppin1);
+        console.log("" + ppin2);
         var ppin1str: string = PPin[ppin1];
         var ppin2str: string = PPin[ppin2];
+        console.log(ppin1str);
+        console.log(ppin2str);
         var digitalpin1: DigitalPin = DigitalPin[ppin1str]
         var digitalpin2: DigitalPin = DigitalPin[ppin2str]
+        console.log("" + digitalpin1);
+        console.log("" + digitalpin2);
         let res1 = pins.digitalReadPin(digitalpin1)
         let res2 = pins.digitalReadPin(digitalpin2)
 
