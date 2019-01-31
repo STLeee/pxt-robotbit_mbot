@@ -15,11 +15,11 @@ Read more at https://makecode.microbit.org/packages/build-your-own
 
 ## Support
 Makeblock IO:
-- [ * ] Me line Follower
-- [ * ] Me Ultrasonic Sensor
-- [ * ] Me Joystick
-- [ * ] Me Potentionmeter
-- [ * ] Me Sound Sensor
+- [v] Me line Follower
+- [v] Me Ultrasonic Sensor
+- [v] Me Joystick
+- [v] Me Potentionmeter
+- [v] Me Sound Sensor
 
 ## License
 
